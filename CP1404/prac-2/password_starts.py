@@ -1,7 +1,12 @@
-password = input("enter password: ")
-if len(password) >= 10:
-    message = "Password is wrong"
-else:
-    message = "PassWord is True"
+MINIMUM_LENGTH = 5
+while True:
+    password = (input("Enter password: "))
+    if len(password) <= MINIMUM_LENGTH:
+        message = f"Password is too short. It must be at least {MINIMUM_LENGTH} characters long"
+    else:
+        message = "*" * len(password)
+    print(message)
 
-print(message)
+
+
+
