@@ -1,14 +1,15 @@
-CODE_TO_COLOR = {"#0048ba": "Absolute Zero", "#b0bf1a": "Acid Green", "NT": "Northern Territory", "WA": "Western Australia",
-                "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
-print(CODE_TO_NAME)
+CODE_TO_COLOR = {"#0048ba": "Absolute Zero", "#b0bf1a": "Acid Green", "#f0f8ff": "AliceBlue",
+                 "#e32636": "Alizarin crimson",
+                 "#e52b50": "Amaranth", "#ffbf00": "Amber", "#9966cc": "Amethyst"}
+print(CODE_TO_COLOR)
 
-state_code = input("Enter short state: ").upper()
-while state_code != "":
-    if state_code in CODE_TO_NAME:
-        print(state_code, "is", CODE_TO_NAME[state_code])
+color_code = input("Enter short code of color: ")
+while color_code != "":
+    if color_code in CODE_TO_COLOR:
+        print(color_code, "is", CODE_TO_COLOR[color_code])
     else:
-        print("Invalid short state")
-    state_code = input("Enter short state: ")
+        print("Invalid color code")
+    color_code = input("Enter short code of color: ")
 
-for state_code, state_name in CODE_TO_NAME.items():
-    print(f"{state_code:<3} is {state_name}")
+for color_code, color_name in CODE_TO_COLOR.items():
+    print(f"{color_code:<3} is {color_name}")
