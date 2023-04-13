@@ -20,3 +20,4 @@ while True:
 
 for email, name in emails.items():
     print(f'{name} ({email})')
+
