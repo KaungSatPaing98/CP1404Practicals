@@ -14,3 +14,4 @@ while color_code != "":
 for color_code, color_name in CODE_TO_COLOR.items():
     print(f"{color_code:<3} is {color_name}")
 
+

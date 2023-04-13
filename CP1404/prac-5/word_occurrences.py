@@ -23,3 +23,4 @@ for word in sorted_words:
     count = word_counts[word]
     print(f"{word:{max_width}} : {count}")
 
+
