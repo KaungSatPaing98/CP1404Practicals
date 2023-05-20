@@ -9,3 +9,4 @@ print(f"{another_guitar.name} get_age() - Excepted {another_guitar.get_age()}. G
 
 print(f"{my_guitar.name} is_vintage() - Excepted {my_guitar.is_vintage()}. Got {my_guitar.is_vintage()}")
 print(f"{another_guitar.name} is_vintage() - Excepted {another_guitar.is_vintage()}. Got {another_guitar.is_vintage()}")
+
