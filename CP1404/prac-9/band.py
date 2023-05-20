@@ -59,3 +59,4 @@ class Instrument:
     def __str__(self):
         """Return a string representation of the instrument and its cost."""
         return f"{self.name} : ${self.cost:.2f}"
+

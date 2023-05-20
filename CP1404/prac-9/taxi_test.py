@@ -17,3 +17,4 @@ my_taxi.drive(100)
 # Print the details and the current fare
 print(f"Taxi details: {my_taxi} Current fare: {my_taxi.get_fare()}")
 
+

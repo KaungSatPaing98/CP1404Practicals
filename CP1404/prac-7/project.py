@@ -8,3 +8,4 @@ class Project:
 
     def __str__(self):
         return f"{self.name}\t{self.start_date}\t{self.priority}\t{self.cost_estimate}\t{self.completion_percentage}"
+
